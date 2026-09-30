@@ -1,0 +1,11 @@
+# Build output
+target/
+
+# IDE files
+.idea/
+*.iml
+
+# Local configuration and secrets
+.env
+application-local.properties
+src/main/resources/application-local.properties
