@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="/application (snapshot).properties">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="/application (snapshot).properties" />
+              <option name="originalContent" value="spring.application.name=classicamoveis-envia-mensagem-ms&#10;&#10;# RabbitMQ&#10;# O container do Docker expõe 5673 no host, não 5672&#10;spring.rabbitmq.host=localhost&#10;spring.rabbitmq.port=5673&#10;spring.rabbitmq.username=admin&#10;spring.rabbitmq.password=admin&#10;rabbitmq.queue.name=mensagens-estoque&#10;&#10;# Twilio&#10;# Para conta trial do Twilio, use um número Twilio real como remetente, não um Messaging Service SID.&#10;# O número de destino também precisa estar validado na sua conta trial.&#10;# Exemplo:&#10;# twilio.account.sid=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#10;# twilio.auth.token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#10;# twilio.from.phone=+14155238886&#10;# sms.destino.telefone=+5511999999999&#10;&#10;twilio.account.sid=AC630d0ad9535934b1ac3940ac9b6a9d8c&#10;twilio.auth.token=a41f68943796ee5f7c2308536acbd0b7&#10;twilio.from.phone=+1 737 250 8034&#10;sms.destino.telefone=+5511989046924&#10;" />
+              <option name="updatedContent" value="spring.application.name=classicamoveis-envia-mensagem-ms&#10;&#10;# RabbitMQ&#10;# O container do Docker expõe 5673 no host, não 5672&#10;spring.rabbitmq.host=localhost&#10;spring.rabbitmq.port=5673&#10;spring.rabbitmq.username=admin&#10;spring.rabbitmq.password=admin&#10;rabbitmq.queue.name=mensagens-estoque&#10;&#10;# Twilio&#10;# Para conta trial do Twilio, use um número Twilio real como remetente, não um Messaging Service SID.&#10;# O número de destino também precisa estar validado na sua conta trial.&#10;# Exemplo:&#10;# twilio.account.sid=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#10;# twilio.auth.token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#10;# twilio.from.phone=+14155238886&#10;# sms.destino.telefone=+5511999999999&#10;&#10;twilio.account.sid=AC630d0ad9535934b1ac3940ac9b6a9d8c&#10;twilio.auth.token=a41f68943796ee5f7c2308536acbd0b7&#10;twilio.from.phone=+1 737 250 8034&#10;sms.destino.telefone=+5511989046924&#10;&#10;server.port=8081" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

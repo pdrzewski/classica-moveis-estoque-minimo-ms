@@ -1,0 +1,5 @@
+sptech/classicamoveis_envia_mensagem_ms/service/TelegramService.class
+sptech/classicamoveis_envia_mensagem_ms/scheduler/TelegramScheduler.class
+sptech/classicamoveis_envia_mensagem_ms/config/RabbitMqConfig.class
+sptech/classicamoveis_envia_mensagem_ms/consumer/MensagemConsumer.class
+sptech/classicamoveis_envia_mensagem_ms/ClassicamoveisEnviaMensagemMsApplication.class
