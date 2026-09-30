@@ -1,5 +1,10 @@
 /home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/ClassicamoveisEnviaMensagemMsApplication.java
+/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/adapter/in/rabbit/MensagemBodyFormatter.java
+/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/adapter/in/rabbit/MensagemConsumer.java
+/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/adapter/in/scheduler/TelegramScheduler.java
+/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/adapter/out/telegram/TelegramAdapter.java
+/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/application/EnviarMensagemService.java
+/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/config/ApplicationConfig.java
 /home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/config/RabbitMqConfig.java
-/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/consumer/MensagemConsumer.java
-/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/scheduler/TelegramScheduler.java
-/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/service/TelegramService.java
+/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/domain/port/in/EnviarMensagemUseCase.java
+/home/void/Documents/Estudos/classica-moveis-estoque-minimo-ms/src/main/java/sptech/classicamoveis_envia_mensagem_ms/domain/port/out/MensagemSender.java

@@ -16,4 +16,3 @@ public class RabbitMqConfig {
         return new Queue(queueName, true);
     }
 }
-
