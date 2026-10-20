@@ -3,11 +3,13 @@ package sptech.classicamoveis_envia_mensagem_ms.adapter.in.scheduler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import sptech.classicamoveis_envia_mensagem_ms.domain.port.in.EnviarMensagemUseCase;
 
 @Component
+@ConditionalOnProperty(name = "telegram.scheduler.enabled", havingValue = "true")
 public class TelegramScheduler {
 
     private static final Logger logger = LoggerFactory.getLogger(TelegramScheduler.class);
