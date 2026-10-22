@@ -24,7 +24,7 @@ public class TelegramScheduler {
         this.chatId = chatId;
     }
 
-    @Scheduled(fixedDelayString = "${telegram.scheduler.delay:180000}")
+    @Scheduled(fixedDelayString = "${telminutosegram.scheduler.delay:180000}")
     public void enviarMensagemAutomatica() {
         String mensagem = "Mensagem automática do microserviço de estoque mínimo: tudo ok no sistema.";
         logger.info("Enviando mensagem automática para o Telegram. Chat ID: {}", chatId);
