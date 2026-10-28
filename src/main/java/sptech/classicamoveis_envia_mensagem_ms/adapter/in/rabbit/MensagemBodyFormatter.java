@@ -22,6 +22,19 @@ public class MensagemBodyFormatter {
                 return corpo;
             }
 
+            if (json.has("nome")
+                    && json.has("estoqueMinimo")
+                    && json.has("estoqueAtual")
+                    && json.has("tipoMovimentacao")
+                    && json.has("dataHora")) {
+                return "Produto " + valor(json.get("nome"))
+                        + " abaixo do estoque mínimo de " + valor(json.get("estoqueMinimo"))
+                        + " produto(s).\n"
+                        + "Estoque atual: " + valor(json.get("estoqueAtual")) + "\n"
+                        + "tipo da movimentação: " + valor(json.get("tipoMovimentacao")) + "\n"
+                        + "Data/Hora: " + valor(json.get("dataHora"));
+            }
+
             StringBuilder mensagem = new StringBuilder();
             Iterator<Map.Entry<String, JsonNode>> campos = json.fields();
             while (campos.hasNext()) {
